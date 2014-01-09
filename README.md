@@ -4,7 +4,7 @@ This Magento extension adds a new column to the "Sales Statistics" on the "Custo
 
 ![Screenshot](/screenshot.png "Screenshot")
 
-*Notice*: Please notice that the "Total Due" amount calculated by Magento only considers open orders that are not in the "Pending" status anymore. This calculation method seems to be intended by Magento, and has not been changed in this extension to follow Magento's core behaviour.
+**Notice**: Please notice that the "Total Due" amount calculated by Magento only considers open orders that are not in the "Pending" status anymore. This calculation method seems to be intended by Magento, and has not been changed in this extension to follow Magento's core behaviour.
 
 ## Compatibility
 
