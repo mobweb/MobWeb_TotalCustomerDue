@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <adminhtml_customer_edit>
+        <reference name="sales">
+            <action method="setTemplate">
+                <template>mobweb_totalcustomerdue/customer/tab/view/sales.phtml</template>
+            </action>
+        </reference>
+    </adminhtml_customer_edit>
+</layout>

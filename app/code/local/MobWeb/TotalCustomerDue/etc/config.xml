@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config> 
+    <modules>
+        <MobWeb_TotalCustomerDue>
+            <version>0.0.1</version>
+        </MobWeb_TotalCustomerDue>
+    </modules>
+    <global>
+        <models>
+            <sales_resource>
+                <rewrite>
+                    <sale_collection>MobWeb_TotalCustomerDue_Model_Resource_Sale_Collection</sale_collection>
+                </rewrite>
+            </sales_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <MobWeb_TotalCustomerDue>
+                    <file>mobweb_totalcustomerdue.xml</file>
+                </MobWeb_TotalCustomerDue>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

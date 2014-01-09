@@ -1,0 +1,10 @@
+app/code/local/MobWeb/TotalCustomerDue app/code/local/MobWeb/TotalCustomerDue/
+
+app/design/adminhtml/default/default/layout/mobweb_totalcustomerdue.xml app/design/adminhtml/default/default/layout/mobweb_totalcustomerdue.xml 
+
+app/design/adminhtml/default/default/template/mobweb_totalcustomerdue app/design/adminhtml/default/default/template/mobweb_totalcustomerdue/ 
+
+app/etc/modules/MobWeb_TotalCustomerDue.xml app/etc/modules/MobWeb_TotalCustomerDue.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
