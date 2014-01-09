@@ -1,5 +1,13 @@
 # MobWeb_TotalCustomerDue extension for Magento
 
+This Magento extension adds a new column to the "Sales Statistics" on the "Customer Information" view in the Magento Admin Panel. This new column displays the total due amount for the current customer, for each store view:
+
+![Screenshot](/screenshot.png "Screenshot")
+
+## Compatibility
+
+Developed and tested against Magento Community Edition 1.7.0.2.
+
 ## Installation
 
 Install using [colinmollenhour/modman](https://github.com/colinmollenhour/modman/).
